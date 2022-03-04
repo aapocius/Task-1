@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weight Converter</title>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Custom JS -->
+    <script defer src="./script.js"></script>
+  </head>
+  <body>
+    <header class="styl">
+      <!-- Header code-->
+      <h1>Weight Converter</h1>
+    </header>
+
+    <main>
+      <div class="wrapper">
+        <h1 class="headline">Converter</h1>
+        <!-- Users input -->
+        <div class="form">
+          <input max="20" type="number" id="search" placeholder="Enter kilograms..."/>
+          <input type="submit"  onclick="calc()" id="submit-btn"/>
+        </div>
+        <!-- Place for output after form submission -->
+        <div id="output">
+        <div id="pounds">To pounds: <span id="outputPounds"></span>(lb)</div>
+        <div id="pounds">To grams: <span id="outputGrams"></span>  (g)</div>
+        <div id="pounds">To Ounces: <span id="outputOunces"></span>(Oz)</div>
+        
+      </div>
+
+      </div>
+    </main>
+
+    <footer>
+      
+      <!-- Footer code -->
+    </footer>
+
+    
+  </body>
+</html>
+
+
